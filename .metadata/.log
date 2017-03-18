@@ -1,0 +1,589 @@
+!SESSION 2017-03-18 04:09:06.780 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-18 04:09:20.408
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Shakthi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2017-03-18 04:10:08.849
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.common.jdt.debug.ui, page: org.jboss.tools.common.jdt.debug.ui.preferences.RemoteDebugPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2017-03-18 04:10:08.875
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.foundation.ui, page: org.jboss.tools.foundation.ui.internal.credentials.CredentialPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2017-03-18 04:10:08.876
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2017-03-18 04:10:08.876
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.jface.text 2 0 2017-03-18 04:11:04.555
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-03-18 04:11:04.555
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-03-18 04:13:30.779
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://opensource.cpupk.com/decompiler.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:333)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:236)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:456)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2017-03-18 04:13:30.781
+!MESSAGE No repository found at http://opensource.cpupk.com/decompiler.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 04:25:41.048
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 04:25:41.051
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 04:25:41.060
+!MESSAGE The POM for org.apache.maven.plugins:maven-install-plugin:jar:2.4 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 04:25:41.064
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 04:25:41.065
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-03-18 05:00:57.459
+!MESSAGE No repository found at http://opensource.cpupk.com/decompiler.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:11:17.546
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:11:17.547
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:11:17.549
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:11:17.549
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:14:53.853
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:14:53.853
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:14:53.854
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:14:53.855
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:38.382
+!MESSAGE The POM for org.springframework:spring-core:jar:${springframework.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:38.977
+!MESSAGE The POM for org.springframework:spring-web:jar:${springframework.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:39.624
+!MESSAGE The POM for org.springframework:spring-webmvc:jar:${springframework.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:40.205
+!MESSAGE The POM for org.springframework:spring-tx:jar:${springframework.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:40.794
+!MESSAGE The POM for org.springframework:spring-orm:jar:${springframework.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:41.410
+!MESSAGE The POM for org.hibernate:hibernate-core:jar:${hibernate.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:42.003
+!MESSAGE The POM for mysql:mysql-connector-java:jar:${mysql.connector.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:42.672
+!MESSAGE The POM for joda-time:joda-time:jar:${joda-time.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:47.731
+!MESSAGE The POM for org.springframework:spring-core:jar:${springframework.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:47.731
+!MESSAGE The POM for org.springframework:spring-web:jar:${springframework.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:47.732
+!MESSAGE The POM for org.springframework:spring-webmvc:jar:${springframework.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:47.733
+!MESSAGE The POM for org.springframework:spring-tx:jar:${springframework.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:47.733
+!MESSAGE The POM for org.springframework:spring-orm:jar:${springframework.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:47.734
+!MESSAGE The POM for org.hibernate:hibernate-core:jar:${hibernate.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:47.735
+!MESSAGE The POM for mysql:mysql-connector-java:jar:${mysql.connector.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:18:47.736
+!MESSAGE The POM for joda-time:joda-time:jar:${joda-time.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:20:34.148
+!MESSAGE The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:20:34.301
+!MESSAGE The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:20:34.756
+!MESSAGE The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:20:35.655
+!MESSAGE The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:20:36.027
+!MESSAGE The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:21:15.912
+!MESSAGE The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:21:16.275
+!MESSAGE The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:21:16.675
+!MESSAGE The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:21:17.464
+!MESSAGE The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:21:17.948
+!MESSAGE The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:21:18.405
+!MESSAGE The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:21:18.410
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:21:18.411
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:21:18.412
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:21:18.413
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:21:18.454
+!MESSAGE The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:21:18.692
+!MESSAGE The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:30:46.840
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:30:46.841
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:30:46.842
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 05:30:46.843
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.eclipse.jface.text 2 0 2017-03-18 05:32:09.439
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-03-18 05:32:09.439
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-03-18 05:32:09.518
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-03-18 05:32:09.518
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2017-03-18 09:47:19.578
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2017-03-18 09:47:19.579
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 09:51:43.946
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 09:51:43.946
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 09:51:43.947
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 09:51:43.948
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:53:41.156
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.156
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.156
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.156
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.156
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:53:41.312
+!MESSAGE Full publish failed for module myapp-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.312
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.312
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.312
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:53:41.371
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.371
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.371
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.371
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:53:58.855
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:58.855
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:58.855
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:58.855
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:58.855
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:53:58.976
+!MESSAGE Full publish failed for module myapp-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:58.976
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:58.976
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:58.976
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:53:59.009
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:59.009
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:59.009
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:59.009
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:54:09.358
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.358
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.358
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.358
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.358
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:54:09.541
+!MESSAGE Full publish failed for module myapp-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.541
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.541
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.541
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:54:09.718
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.718
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.718
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.718
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2017-03-18 09:54:17.958
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2017-03-18 09:54:18.525
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:56:29.634
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.634
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.634
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.634
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.634
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:56:29.755
+!MESSAGE Full publish failed for module myapp-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.755
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.755
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.755
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:56:29.785
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.785
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.785
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.785
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 09:58:12.049
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 09:58:12.051
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 09:58:12.053
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 09:58:12.055
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:58:14.914
+!MESSAGE Full publish failed for module myapp-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:14.914
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:14.914
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:58:14.972
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:14.972
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:14.972
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:14.972
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:58:16.453
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:16.453
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:16.453
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:16.453
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:59:34.294
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:59:34.294
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:59:34.294
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:59:34.294
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:00:01.528
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:00:01.528
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:00:01.528
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:00:01.528
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:00:22.255
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:00:22.255
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:00:22.255
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:00:22.255
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:01:28.750
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:01:28.750
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:01:28.750
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:01:28.750
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:01:57.904
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:01:57.905
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:01:57.905
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:01:57.905
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:08:29.309
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:08:29.309
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:08:29.309
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:08:29.309
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:08:55.681
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:08:55.681
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:08:55.681
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:08:55.681
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:09:26.993
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:09:26.993
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:09:26.993
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:09:26.993
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 10:10:52.857
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 10:10:52.858
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 10:10:52.859
+!MESSAGE The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-18 10:10:52.860
+!MESSAGE Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:11:53.650
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:11:53.650
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:11:53.650
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:11:53.650
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:11:53.650
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:11:53.877
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:11:53.877
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:11:53.877
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:11:53.877
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2017-03-18 10:12:08.812
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2017-03-18 10:12:09.405
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:13:48.686
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:13:48.686
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:13:48.686
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:13:48.686
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:13:48.686
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:13:48.750
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:13:48.750
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:13:48.750
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:13:48.750
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:14:13.191
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:14:13.191
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:14:13.191
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:14:13.191
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:14:13.191
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:14:13.477
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:14:13.477
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:14:13.477
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:14:13.477
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:15:22.184
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:15:22.184
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:15:22.184
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:15:22.184
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:15:22.184
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:15:23.223
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:15:23.223
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:15:23.223
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:15:23.223
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 1644298249 2017-03-18 10:15:23.262
+!MESSAGE Error renaming C:\Server\wildfly-10.0.0.Final\standalone\tmp\tmp1203902192076431449.class to C:\Server\wildfly-10.0.0.Final\standalone\deployments\myapp-ear.ear\myapp-web.war\WEB-INF\classes\com\earapp\config\AppConfig.class. 
+
+This may be caused by incorrect file permissions, or your server's temporary deploy directory may be on a different filesystem than the final destination.
+
+You may adjust these settings in the server editor.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2017-03-18 10:15:37.424
+!MESSAGE Could not publish to the server.
+!STACK 0
+java.lang.NullPointerException
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.moduleToString(StandardFileSystemPublishController.java:287)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:300)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

@@ -1,0 +1,5 @@
+package com.earapp.core.model;
+
+public class Employee {
+
+}

@@ -1,0 +1,5 @@
+package com.earapp.core.dao;
+
+public class EmployeeDaoImpl {
+
+}

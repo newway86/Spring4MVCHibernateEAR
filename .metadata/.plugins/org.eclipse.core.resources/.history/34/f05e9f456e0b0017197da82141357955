@@ -1,0 +1,5 @@
+package com.earapp.core.config;
+
+public class HibernateConfiguration {
+
+}

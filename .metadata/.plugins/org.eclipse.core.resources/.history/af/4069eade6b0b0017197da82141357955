@@ -1,0 +1,20 @@
+package ejb;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class EmptySessionBean
+ */
+@Stateless
+@LocalBean
+public class EmptySessionBean {
+
+    /**
+     * Default constructor. 
+     */
+    public EmptySessionBean() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

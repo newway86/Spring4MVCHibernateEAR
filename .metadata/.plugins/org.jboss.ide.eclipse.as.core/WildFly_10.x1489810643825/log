@@ -1,0 +1,336 @@
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:53:41.155
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.155
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.155
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.155
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.155
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:53:41.311
+!MESSAGE Full publish failed for module myapp-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.311
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.311
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.311
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:53:41.370
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.370
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.371
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:41.371
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:53:58.854
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:58.854
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:58.854
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:58.854
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:58.854
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:53:58.976
+!MESSAGE Full publish failed for module myapp-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:58.976
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:58.976
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:58.976
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:53:59.009
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:59.009
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:59.009
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:53:59.009
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-03-18 09:54:00.411
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-03-18 09:54:04.949
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:54:09.358
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.358
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.358
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.358
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.358
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:54:09.540
+!MESSAGE Full publish failed for module myapp-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.540
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.540
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.540
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:54:09.717
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.717
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.717
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:54:09.717
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:56:29.633
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.633
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.633
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.633
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.633
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:56:29.754
+!MESSAGE Full publish failed for module myapp-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.754
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.754
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.754
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:56:29.785
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.785
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.785
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:56:29.785
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:58:14.913
+!MESSAGE Full publish failed for module myapp-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:14.914
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:14.914
+!MESSAGE Error reading file D:\Test\myapp\myapp-web\target\m2e-wtp\web-resources\META-INF\maven\com.earapp\myapp-web\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:58:14.971
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:14.971
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:14.971
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:14.971
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:58:16.453
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:16.453
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:16.453
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:58:16.453
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 09:59:34.294
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:59:34.294
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:59:34.294
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 09:59:34.294
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:00:01.528
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:00:01.528
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:00:01.528
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:00:01.528
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:00:22.255
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:00:22.255
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:00:22.255
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:00:22.255
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:01:28.749
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:01:28.749
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:01:28.749
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:01:28.749
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2017-03-18 10:01:57.230
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-03-18 10:01:57.843
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:01:57.904
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:01:57.904
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:01:57.904
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:01:57.904
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-03-18 10:01:59.015
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-03-18 10:02:03.127
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:08:29.309
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:08:29.309
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:08:29.309
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:08:29.309
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:08:55.681
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:08:55.681
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:08:55.681
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:08:55.681
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2017-03-18 10:09:26.515
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-03-18 10:09:26.935
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:09:26.992
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:09:26.992
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:09:26.992
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:09:26.992
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-03-18 10:09:28.125
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-03-18 10:09:32.134
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2017-03-18 10:11:30.803
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-03-18 10:11:31.152
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:11:53.649
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:11:53.649
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:11:53.649
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:11:53.649
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:11:53.649
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:11:53.877
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:11:53.877
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:11:53.877
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:11:53.877
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-03-18 10:11:54.981
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-03-18 10:11:58.986
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:13:48.686
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:13:48.686
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:13:48.686
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:13:48.686
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:13:48.686
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:13:48.750
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:13:48.750
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:13:48.750
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:13:48.750
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:14:13.190
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:14:13.190
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:14:13.190
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:14:13.190
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:14:13.190
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:14:13.477
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:14:13.477
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:14:13.477
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:14:13.477
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:15:22.184
+!MESSAGE Full publish failed for module myapp-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:15:22.184
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:15:22.184
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:15:22.184
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:15:22.184
+!MESSAGE Error reading file D:\Test\myapp\myapp-ear\target\m2e-wtp\ear-resources\META-INF\maven\com.earapp\myapp-ear\pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-03-18 10:15:23.222
+!MESSAGE Full publish failed for module myapp-ejb
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:15:23.222
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:15:23.222
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\maven\com.earapp\myapp-ejb\pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-03-18 10:15:23.222
+!MESSAGE Error reading file D:\Test\myapp\myapp-ejb\target\classes\META-INF\MANIFEST.MF

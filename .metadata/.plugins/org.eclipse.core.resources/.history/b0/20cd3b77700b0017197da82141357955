@@ -1,0 +1,5 @@
+package com.earapp.core.service;
+
+public class EmployeeServiceImpl {
+
+}

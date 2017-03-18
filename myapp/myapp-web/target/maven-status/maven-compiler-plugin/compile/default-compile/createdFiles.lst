@@ -1,0 +1,3 @@
+com\earapp\config\AppConfig.class
+com\earapp\config\AppInitializer.class
+com\earapp\controller\AppController.class

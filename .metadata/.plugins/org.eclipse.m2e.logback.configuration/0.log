@@ -1,0 +1,811 @@
+2017-03-18 04:23:29,222 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\Test\myapp\pom.xml
+2017-03-18 04:23:29,227 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info 'myapp-ejb/pom.xml' D:\Test\myapp\myapp-ejb\pom.xml
+2017-03-18 04:23:29,227 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info 'myapp-web/pom.xml' D:\Test\myapp\myapp-web\pom.xml
+2017-03-18 04:23:29,227 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info 'myapp-ear/pom.xml' D:\Test\myapp\myapp-ear\pom.xml
+2017-03-18 04:23:30,309 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.earapp:myapp:0.0.1-SNAPSHOT @ D:\Test\myapp\pom.xml.
+2017-03-18 04:23:31,270 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 04:23:31,844 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 04:23:31,981 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 04:23:34,356 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-ejb/src/main/java
+2017-03-18 04:23:34,357 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-ejb/src/main/resources
+2017-03-18 04:23:34,364 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-ejb/src/test/java
+2017-03-18 04:23:34,364 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-ejb/src/test/resources
+2017-03-18 04:23:35,704 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-web/src/main/java
+2017-03-18 04:23:35,704 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-web/src/main/resources
+2017-03-18 04:23:35,710 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-web/src/test/java
+2017-03-18 04:23:35,711 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-web/src/test/resources
+2017-03-18 04:23:36,935 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 04:23:36,977 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 4 project(s) in 7 sec
+2017-03-18 04:23:37,847 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:23:37,848 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 04:23:38,903 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:23:38,905 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 04:23:38,920 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:23:38,920 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-03-18 04:23:42,348 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:23:42,349 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 04:23:42,350 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:23:42,351 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 04:23:42,541 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:23:42,543 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 04:23:42,545 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:23:42,546 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 04:24:09,857 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.earapp:myapp:0.0.1-SNAPSHOT @ D:\Test\myapp\pom.xml.
+2017-03-18 04:24:10,272 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 04:24:10,396 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 04:24:10,459 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 04:24:11,974 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 04:24:13,151 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:24:13,151 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 04:24:13,439 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:24:13,442 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 04:24:13,464 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:24:13,465 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 04:24:13,698 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:24:13,698 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 04:24:13,701 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:24:13,701 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 04:25:22,802 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:25:22,802 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 04:25:22,804 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:25:22,804 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 04:25:36,667 [Worker-46] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-03-18 04:25:36,965 [Worker-46] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.earapp:myapp:0.0.1-SNAPSHOT @ D:\Test\myapp\pom.xml.
+2017-03-18 04:25:37,034 [Worker-46] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 04:25:37,455 [Worker-46] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 04:25:37,639 [Worker-46] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 04:25:38,879 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 04:25:39,466 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 04:25:39,590 [Worker-46] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-ejb/src/main/java
+2017-03-18 04:25:39,591 [Worker-46] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-ejb/src/main/resources
+2017-03-18 04:25:39,591 [Worker-46] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-ejb/src/test/java
+2017-03-18 04:25:39,592 [Worker-46] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-ejb/src/test/resources
+2017-03-18 04:25:39,946 [Worker-46] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-web/src/main/java
+2017-03-18 04:25:39,946 [Worker-46] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-web/src/main/resources
+2017-03-18 04:25:39,946 [Worker-46] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-web/src/test/java
+2017-03-18 04:25:39,947 [Worker-46] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-web/src/test/resources
+2017-03-18 04:25:40,510 [Worker-46] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for myapp-ear
+2017-03-18 04:25:40,573 [Worker-46] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for myapp-web
+2017-03-18 04:25:40,581 [Worker-46] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2017-03-18 04:25:40,875 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:25:40,876 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 04:25:40,891 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:25:40,892 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-03-18 04:25:41,040 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-ear
+2017-03-18 04:25:41,041 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-ear
+2017-03-18 04:25:41,046 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 04:25:41,050 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 04:25:41,060 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-install-plugin:jar:2.4 is missing, no dependency information available
+2017-03-18 04:25:41,064 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 04:25:41,065 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 04:25:41,070 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:25:41,112 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 04:25:41,129 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:25:41,129 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 04:25:41,306 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:25:41,307 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 04:25:41,308 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:25:41,308 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 04:25:41,309 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-web
+2017-03-18 04:25:41,309 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-web
+2017-03-18 04:25:41,313 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:25:41,957 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:25:41,958 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 04:25:41,958 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 04:25:41,959 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:07:38,898 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.earapp:myapp:0.0.1-SNAPSHOT @ D:\Test\myapp\pom.xml.
+2017-03-18 05:07:39,222 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:07:39,329 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 05:07:39,385 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 05:07:40,423 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:07:41,224 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:07:41,225 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:07:41,346 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:07:41,348 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 05:07:41,352 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:07:41,352 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:07:41,447 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:07:41,447 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:07:41,448 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:07:41,448 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:08:29,638 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.earapp:myapp:0.0.1-SNAPSHOT @ D:\Test\myapp\pom.xml.
+2017-03-18 05:08:29,921 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:08:30,018 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 05:08:30,067 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 05:08:31,159 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:08:31,959 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:08:31,960 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:08:32,087 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:08:32,089 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 05:08:32,094 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:08:32,095 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:08:32,179 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:08:32,180 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:08:32,181 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:08:32,181 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:08:35,572 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.earapp:myapp:0.0.1-SNAPSHOT @ D:\Test\myapp\pom.xml.
+2017-03-18 05:08:35,861 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:08:35,950 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 05:08:35,992 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 05:08:37,103 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:08:37,854 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:08:37,855 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:08:38,002 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:08:38,005 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 05:08:38,010 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:08:38,010 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:08:38,095 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:08:38,096 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:08:38,097 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:08:38,097 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:09:05,511 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.earapp:myapp:0.0.1-SNAPSHOT @ D:\Test\myapp\pom.xml.
+2017-03-18 05:09:05,764 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:09:05,842 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 05:09:05,890 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 05:09:06,789 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:09:07,494 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:09:07,494 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:09:07,596 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:09:07,599 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 05:09:07,606 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:09:07,607 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:09:07,693 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:09:07,693 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:09:07,694 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:09:07,694 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:11:17,219 [Worker-64] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 05:11:17,496 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:11:17,544 [Worker-64] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-ear
+2017-03-18 05:11:17,544 [Worker-64] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-ear
+2017-03-18 05:11:17,546 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 05:11:17,546 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 05:11:17,548 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 05:11:17,549 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 05:11:17,553 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:11:17,555 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:11:17,555 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:12:54,297 [Worker-65] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using null lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 05:13:59,455 [Worker-55] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using null lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:14:15,288 [Worker-65] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:14:15,853 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:14:15,853 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:14:15,854 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:14:15,854 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:14:15,854 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-web
+2017-03-18 05:14:15,854 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-web
+2017-03-18 05:14:15,857 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:14:40,915 [Worker-55] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 05:14:41,249 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:14:41,249 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:14:41,250 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:14:41,250 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:14:53,546 [Worker-62] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 05:14:53,808 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:14:53,850 [Worker-62] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-ear
+2017-03-18 05:14:53,850 [Worker-62] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-ear
+2017-03-18 05:14:53,852 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 05:14:53,853 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 05:14:53,854 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 05:14:53,855 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 05:14:53,857 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:14:53,860 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:14:53,860 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:15:45,211 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:15:45,212 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 05:15:45,215 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:15:45,215 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:15:45,412 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:15:45,413 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:15:45,414 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:15:45,414 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:15:45,515 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:15:45,516 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:15:45,516 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:15:45,516 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:15:58,881 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:15:58,882 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 05:15:58,883 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:15:58,884 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:17:26,279 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:17:26,279 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:17:26,452 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:17:26,454 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:17:26,463 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:17:26,465 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:17:26,604 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:17:26,604 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:17:26,606 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:17:26,607 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:18:37,094 [Worker-62] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:18:38,378 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/${springframework.version}/spring-core-${springframework.version}.pom
+2017-03-18 05:18:38,381 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-core:jar:${springframework.version} is missing, no dependency information available
+2017-03-18 05:18:38,973 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/${springframework.version}/spring-web-${springframework.version}.pom
+2017-03-18 05:18:38,977 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-web:jar:${springframework.version} is missing, no dependency information available
+2017-03-18 05:18:39,622 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/${springframework.version}/spring-webmvc-${springframework.version}.pom
+2017-03-18 05:18:39,624 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-webmvc:jar:${springframework.version} is missing, no dependency information available
+2017-03-18 05:18:40,203 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/${springframework.version}/spring-tx-${springframework.version}.pom
+2017-03-18 05:18:40,205 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-tx:jar:${springframework.version} is missing, no dependency information available
+2017-03-18 05:18:40,793 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/${springframework.version}/spring-orm-${springframework.version}.pom
+2017-03-18 05:18:40,794 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-orm:jar:${springframework.version} is missing, no dependency information available
+2017-03-18 05:18:41,406 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/${hibernate.version}/hibernate-core-${hibernate.version}.pom
+2017-03-18 05:18:41,410 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.hibernate:hibernate-core:jar:${hibernate.version} is missing, no dependency information available
+2017-03-18 05:18:42,001 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/${mysql.connector.version}/mysql-connector-java-${mysql.connector.version}.pom
+2017-03-18 05:18:42,002 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for mysql:mysql-connector-java:jar:${mysql.connector.version} is missing, no dependency information available
+2017-03-18 05:18:42,668 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/joda-time/joda-time/${joda-time.version}/joda-time-${joda-time.version}.pom
+2017-03-18 05:18:42,671 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for joda-time:joda-time:jar:${joda-time.version} is missing, no dependency information available
+2017-03-18 05:18:43,315 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/${springframework.version}/spring-core-${springframework.version}.jar
+2017-03-18 05:18:43,929 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/${springframework.version}/spring-web-${springframework.version}.jar
+2017-03-18 05:18:44,531 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/${springframework.version}/spring-webmvc-${springframework.version}.jar
+2017-03-18 05:18:45,135 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/${springframework.version}/spring-tx-${springframework.version}.jar
+2017-03-18 05:18:45,745 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/${springframework.version}/spring-orm-${springframework.version}.jar
+2017-03-18 05:18:46,346 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/${hibernate.version}/hibernate-core-${hibernate.version}.jar
+2017-03-18 05:18:46,934 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/${mysql.connector.version}/mysql-connector-java-${mysql.connector.version}.jar
+2017-03-18 05:18:47,531 [Worker-62] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/joda-time/joda-time/${joda-time.version}/joda-time-${joda-time.version}.jar
+2017-03-18 05:18:47,693 [Worker-62] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 05:18:47,730 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-core:jar:${springframework.version} is missing, no dependency information available
+2017-03-18 05:18:47,731 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-web:jar:${springframework.version} is missing, no dependency information available
+2017-03-18 05:18:47,732 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-webmvc:jar:${springframework.version} is missing, no dependency information available
+2017-03-18 05:18:47,732 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-tx:jar:${springframework.version} is missing, no dependency information available
+2017-03-18 05:18:47,733 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-orm:jar:${springframework.version} is missing, no dependency information available
+2017-03-18 05:18:47,734 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.hibernate:hibernate-core:jar:${hibernate.version} is missing, no dependency information available
+2017-03-18 05:18:47,735 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for mysql:mysql-connector-java:jar:${mysql.connector.version} is missing, no dependency information available
+2017-03-18 05:18:47,736 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for joda-time:joda-time:jar:${joda-time.version} is missing, no dependency information available
+2017-03-18 05:18:48,238 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:18:48,316 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:18:48,316 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:18:48,317 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:18:48,317 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:18:48,318 [Worker-62] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-web
+2017-03-18 05:18:48,318 [Worker-62] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-web
+2017-03-18 05:18:48,322 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:18:49,515 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:18:49,515 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:19:16,375 [Worker-55] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.earapp:myapp:0.0.1-SNAPSHOT @ D:\Test\myapp\pom.xml.
+2017-03-18 05:19:16,602 [Worker-55] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 05:19:16,727 [Worker-55] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:19:16,852 [Worker-55] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 05:19:17,734 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:19:18,528 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:19:18,528 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:19:18,649 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:19:18,651 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:19:18,652 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:19:18,653 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:19:18,889 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:19:18,890 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:19:18,891 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:19:18,891 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:20:11,556 [Worker-68] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:20:11,767 [Worker-68] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 05:20:12,726 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:20:12,840 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:20:12,841 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:20:12,841 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:20:12,841 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:20:12,841 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-web
+2017-03-18 05:20:12,841 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-web
+2017-03-18 05:20:12,844 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:20:14,074 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:20:14,074 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:20:33,852 [Worker-68] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.earapp:myapp:0.0.1-SNAPSHOT @ D:\Test\myapp\pom.xml.
+2017-03-18 05:20:34,048 [Worker-68] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 05:20:34,130 [Worker-68] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:20:34,148 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-03-18 05:20:34,274 [Worker-68] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 05:20:34,301 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-03-18 05:20:34,755 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-03-18 05:20:35,019 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:20:35,655 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-03-18 05:20:35,833 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:20:35,833 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:20:36,027 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-03-18 05:20:36,254 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:20:36,255 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:20:36,257 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:20:36,257 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:21:15,682 [Worker-71] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-03-18 05:21:15,848 [Worker-71] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.earapp:myapp:0.0.1-SNAPSHOT @ D:\Test\myapp\pom.xml.
+2017-03-18 05:21:15,889 [Worker-71] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 05:21:15,911 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-03-18 05:21:16,127 [Worker-71] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 05:21:16,201 [Worker-71] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:21:16,275 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-03-18 05:21:16,675 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-03-18 05:21:17,004 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:21:17,464 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-03-18 05:21:17,466 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:21:17,537 [Worker-71] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-ejb/src/main/java
+2017-03-18 05:21:17,537 [Worker-71] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-ejb/src/main/resources
+2017-03-18 05:21:17,538 [Worker-71] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-ejb/src/test/java
+2017-03-18 05:21:17,538 [Worker-71] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-ejb/src/test/resources
+2017-03-18 05:21:17,660 [Worker-71] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-web/src/main/java
+2017-03-18 05:21:17,660 [Worker-71] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-web/src/main/resources
+2017-03-18 05:21:17,661 [Worker-71] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-web/src/test/java
+2017-03-18 05:21:17,661 [Worker-71] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-web/src/test/resources
+2017-03-18 05:21:17,948 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-03-18 05:21:18,123 [Worker-71] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for myapp-ear
+2017-03-18 05:21:18,163 [Worker-71] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for myapp-web
+2017-03-18 05:21:18,169 [Worker-71] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2017-03-18 05:21:18,405 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-03-18 05:21:18,407 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-ear
+2017-03-18 05:21:18,407 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-ear
+2017-03-18 05:21:18,410 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 05:21:18,411 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 05:21:18,412 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 05:21:18,413 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 05:21:18,426 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:21:18,454 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-03-18 05:21:18,456 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:21:18,470 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:21:18,471 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:21:18,691 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.earapp:myapp-ejb:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-03-18 05:21:18,769 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:21:18,769 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:21:18,770 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:21:18,770 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:21:18,771 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-web
+2017-03-18 05:21:18,771 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-web
+2017-03-18 05:21:18,773 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:22:40,428 [Worker-73] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 05:22:40,469 [Worker-73] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 05:22:40,530 [Worker-73] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:22:40,767 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:22:41,036 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:22:41,037 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:22:41,037 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:22:41,038 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:22:41,141 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:22:41,141 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:22:41,142 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:22:41,143 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:22:42,308 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:22:42,309 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:22:42,372 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:22:42,372 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:22:42,373 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:22:42,373 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:23:42,870 [Worker-55] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:23:43,458 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:23:43,458 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:23:43,458 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:23:43,459 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:23:43,459 [Worker-55] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-web
+2017-03-18 05:23:43,459 [Worker-55] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-web
+2017-03-18 05:23:43,462 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:24:02,787 [Worker-73] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:24:03,389 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:24:03,390 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:24:03,390 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:24:03,390 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:24:03,391 [Worker-73] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-web
+2017-03-18 05:24:03,391 [Worker-73] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-web
+2017-03-18 05:24:03,393 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:24:41,561 [Worker-55] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 05:24:41,654 [Worker-55] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 05:24:41,755 [Worker-55] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:24:42,222 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:24:42,540 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:24:42,541 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:24:42,541 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:24:42,541 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:24:42,652 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:24:42,652 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:24:42,653 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:24:42,653 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:24:44,368 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:24:44,369 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:24:44,561 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:24:44,562 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:24:44,563 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:24:44,563 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:25:12,683 [Worker-59] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 05:25:13,011 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:25:13,012 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:25:13,013 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:25:13,014 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:29:14,145 [Worker-76] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.earapp:myapp:0.0.1-SNAPSHOT @ D:\Test\myapp\pom.xml.
+2017-03-18 05:29:14,174 [Worker-76] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 05:29:15,624 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.2/maven-compiler-plugin-3.2.jar
+2017-03-18 05:29:16,292 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.2/maven-compiler-plugin-3.2.jar
+2017-03-18 05:29:16,637 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.2/maven-compiler-plugin-3.2.pom
+2017-03-18 05:29:16,863 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.2/maven-compiler-plugin-3.2.pom
+2017-03-18 05:29:17,232 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.4/plexus-compiler-api-2.4.pom
+2017-03-18 05:29:17,463 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.4/plexus-compiler-api-2.4.pom
+2017-03-18 05:29:17,693 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.4/plexus-compiler-2.4.pom
+2017-03-18 05:29:17,923 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.4/plexus-compiler-2.4.pom
+2017-03-18 05:29:18,150 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.pom
+2017-03-18 05:29:18,379 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.pom
+2017-03-18 05:29:18,617 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.4/plexus-compiler-manager-2.4.pom
+2017-03-18 05:29:18,848 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.4/plexus-compiler-manager-2.4.pom
+2017-03-18 05:29:19,078 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.4/plexus-compiler-javac-2.4.pom
+2017-03-18 05:29:19,306 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.4/plexus-compiler-javac-2.4.pom
+2017-03-18 05:29:19,531 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.4/plexus-compilers-2.4.pom
+2017-03-18 05:29:19,761 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.4/plexus-compilers-2.4.pom
+2017-03-18 05:29:20,020 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.4/plexus-compiler-api-2.4.jar
+2017-03-18 05:29:20,325 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.4/plexus-compiler-api-2.4.jar
+2017-03-18 05:29:20,540 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.4/plexus-compiler-manager-2.4.jar
+2017-03-18 05:29:20,764 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.4/plexus-compiler-manager-2.4.jar
+2017-03-18 05:29:20,979 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.4/plexus-compiler-javac-2.4.jar
+2017-03-18 05:29:21,268 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.4/plexus-compiler-javac-2.4.jar
+2017-03-18 05:29:21,391 [Worker-76] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:29:21,456 [Worker-76] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 05:29:22,392 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:29:22,905 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:29:22,906 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:29:23,094 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:29:23,096 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:29:23,097 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:29:23,098 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:29:23,234 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:29:23,235 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:29:23,235 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:29:23,236 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:30:43,942 [Worker-76] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-03-18 05:30:44,046 [Worker-76] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.earapp:myapp:0.0.1-SNAPSHOT @ D:\Test\myapp\pom.xml.
+2017-03-18 05:30:44,075 [Worker-76] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 05:30:44,410 [Worker-76] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 05:30:44,453 [Worker-76] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 05:30:45,447 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:30:45,872 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:30:45,949 [Worker-76] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-ejb/src/main/java
+2017-03-18 05:30:45,950 [Worker-76] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-ejb/src/main/resources
+2017-03-18 05:30:45,950 [Worker-76] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-ejb/src/test/java
+2017-03-18 05:30:45,950 [Worker-76] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-ejb/src/test/resources
+2017-03-18 05:30:46,099 [Worker-76] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-web/src/main/java
+2017-03-18 05:30:46,104 [Worker-76] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-web/src/main/resources
+2017-03-18 05:30:46,104 [Worker-76] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-web/src/test/java
+2017-03-18 05:30:46,105 [Worker-76] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-web/src/test/resources
+2017-03-18 05:30:46,472 [Worker-76] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for myapp-ear
+2017-03-18 05:30:46,497 [Worker-76] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for myapp-web
+2017-03-18 05:30:46,503 [Worker-76] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2017-03-18 05:30:46,838 [Worker-82] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-ear
+2017-03-18 05:30:46,838 [Worker-82] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-ear
+2017-03-18 05:30:46,840 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 05:30:46,841 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 05:30:46,842 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 05:30:46,842 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 05:30:46,896 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:30:47,020 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 05:30:47,031 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:30:47,031 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 05:30:47,243 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:30:47,243 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:30:47,245 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:30:47,245 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:30:47,365 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:30:47,366 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:30:47,366 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:30:47,367 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:30:47,367 [Worker-82] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-web
+2017-03-18 05:30:47,367 [Worker-82] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-web
+2017-03-18 05:30:47,370 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:32:10,029 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:32:10,032 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:32:10,033 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:32:10,034 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:32:23,088 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:32:23,090 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:32:23,092 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:32:23,092 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:32:41,670 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:32:41,671 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:32:41,672 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:32:41,672 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:33:10,342 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:33:10,342 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:33:10,343 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:33:10,343 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:33:27,553 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:33:27,553 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:33:27,554 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:33:27,555 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:33:44,570 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:33:44,570 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:33:44,579 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:33:44,580 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:34:18,943 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:34:18,944 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:34:18,961 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:34:18,962 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:34:41,287 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:34:41,288 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:34:41,290 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:34:41,291 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:35:33,632 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:35:33,633 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:35:33,634 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:35:33,635 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:36:16,884 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:36:16,890 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:36:16,892 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:36:16,893 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:36:22,411 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:36:22,412 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:36:22,413 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:36:22,414 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:36:48,493 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:36:48,494 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:36:48,495 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:36:48,495 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:37:19,483 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:37:19,484 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:37:19,486 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:37:19,487 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:37:35,416 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:37:35,417 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:37:35,419 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:37:35,419 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:38:01,155 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:38:01,155 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:38:01,156 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:38:01,157 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:38:09,012 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:38:09,013 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:38:09,014 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:38:09,014 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:38:25,991 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:38:25,991 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:38:25,993 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:38:25,993 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:38:48,393 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:38:48,393 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:38:48,395 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:38:48,395 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:39:01,874 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:39:01,874 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:39:01,877 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:39:01,877 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:39:25,744 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:39:25,744 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:39:25,747 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:39:25,747 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:39:29,026 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:39:29,027 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:39:29,030 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:39:29,030 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:40:03,510 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:40:03,510 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:40:03,511 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:40:03,511 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:40:24,900 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:40:24,901 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:40:24,902 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:40:24,902 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:42:13,817 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:42:13,818 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:42:13,820 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:42:13,820 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:42:49,490 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:42:49,490 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:42:49,491 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:42:49,491 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:43:19,051 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:43:19,052 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:43:19,052 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:43:19,053 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:43:37,258 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:43:37,258 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:43:37,259 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:43:37,259 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:43:42,908 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:43:42,908 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:43:42,910 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:43:42,911 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:44:09,630 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:44:09,631 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:44:09,631 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:44:09,632 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:44:20,303 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:44:20,303 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:44:20,304 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:44:20,304 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:44:42,944 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:44:42,945 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:44:42,946 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:44:42,946 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:45:04,743 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:45:04,744 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:45:04,745 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:45:04,745 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:46:24,215 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:46:24,216 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:46:24,221 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:46:24,222 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:46:31,155 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:46:31,156 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:46:31,162 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:46:31,163 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:48:41,541 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:48:41,542 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:48:41,543 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:48:41,543 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:48:52,528 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:48:52,529 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:48:52,531 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:48:52,531 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 05:48:54,794 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:48:54,795 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 05:48:54,843 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 05:48:54,843 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:43:07,344 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:43:07,345 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 09:43:07,353 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:43:07,356 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:43:27,982 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:43:27,982 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 09:43:27,983 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:43:27,983 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:44:09,095 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:44:09,098 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 09:44:09,099 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:44:09,100 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:44:22,813 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:44:22,814 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 09:44:22,815 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:44:22,816 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:45:07,459 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:45:07,460 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 09:45:07,462 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:45:07,462 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:45:16,377 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:45:16,378 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 09:45:16,396 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:45:16,396 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:45:45,275 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:45:45,282 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 09:45:45,283 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:45:45,283 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:45:56,644 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:45:56,648 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 09:45:56,651 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:45:56,652 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:46:02,761 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:46:02,762 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 09:46:02,764 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:46:02,764 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:46:22,801 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:46:22,801 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 09:46:22,802 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:46:22,803 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:46:47,474 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:46:47,475 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 09:46:47,476 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:46:47,476 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:47:03,756 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:47:03,756 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 09:47:03,757 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:47:03,758 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:47:06,721 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:47:06,721 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 09:47:06,723 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:47:06,723 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:51:40,484 [Worker-106] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-03-18 09:51:40,689 [Worker-106] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.earapp:myapp:0.0.1-SNAPSHOT @ D:\Test\myapp\pom.xml.
+2017-03-18 09:51:40,729 [Worker-106] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 09:51:41,169 [Worker-106] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 09:51:41,235 [Worker-106] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 09:51:42,259 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 09:51:42,693 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 09:51:42,774 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-ejb/src/main/java
+2017-03-18 09:51:42,775 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-ejb/src/main/resources
+2017-03-18 09:51:42,775 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-ejb/src/test/java
+2017-03-18 09:51:42,775 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-ejb/src/test/resources
+2017-03-18 09:51:42,938 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-web/src/main/java
+2017-03-18 09:51:42,938 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-web/src/main/resources
+2017-03-18 09:51:42,939 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-web/src/test/java
+2017-03-18 09:51:42,939 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-web/src/test/resources
+2017-03-18 09:51:43,466 [Worker-106] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for myapp-ear
+2017-03-18 09:51:43,594 [Worker-106] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for myapp-web
+2017-03-18 09:51:43,600 [Worker-106] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2017-03-18 09:51:43,943 [Worker-101] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-ear
+2017-03-18 09:51:43,944 [Worker-101] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-ear
+2017-03-18 09:51:43,945 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 09:51:43,946 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 09:51:43,947 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 09:51:43,947 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 09:51:43,963 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:51:44,070 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 09:51:44,079 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:51:44,079 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 09:51:44,377 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:51:44,378 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 09:51:44,388 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:51:44,389 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:51:44,685 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:51:44,686 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 09:51:44,689 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:51:44,689 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:51:44,690 [Worker-101] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-web
+2017-03-18 09:51:44,690 [Worker-101] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-web
+2017-03-18 09:51:44,694 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:51:54,982 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-03-18 09:52:06,688 [Worker-109] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Test\myapp
+2017-03-18 09:52:06,688 [Worker-109] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean package
+2017-03-18 09:53:59,044 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:53:59,046 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 09:53:59,048 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:53:59,048 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:56:24,169 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:56:24,169 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 09:56:24,171 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:56:24,172 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:58:12,044 [Worker-112] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-ear
+2017-03-18 09:58:12,045 [Worker-112] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-ear
+2017-03-18 09:58:12,049 [Worker-112] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 09:58:12,051 [Worker-112] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 09:58:12,053 [Worker-112] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 09:58:12,054 [Worker-112] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 09:58:12,078 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:58:12,237 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 09:58:12,253 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:58:12,253 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 09:58:15,013 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:58:15,014 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:58:15,014 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:58:15,014 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 09:59:33,029 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:59:33,030 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 09:59:33,031 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 09:59:33,031 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 10:00:00,296 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:00:00,296 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 10:00:00,297 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:00:00,297 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 10:08:28,084 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:08:28,085 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 10:08:28,086 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:08:28,086 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 10:10:48,653 [Worker-106] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-03-18 10:10:48,864 [Worker-106] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.earapp:myapp:0.0.1-SNAPSHOT @ D:\Test\myapp\pom.xml.
+2017-03-18 10:10:48,925 [Worker-106] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ear:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ear\pom.xml.
+2017-03-18 10:10:49,416 [Worker-106] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-ejb:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-ejb\pom.xml.
+2017-03-18 10:10:49,481 [Worker-106] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.earapp:myapp-web:0.0.1-SNAPSHOT @ D:\Test\myapp\myapp-web\pom.xml.
+2017-03-18 10:10:50,597 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 10:10:51,541 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 10:10:51,666 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-ejb/src/main/java
+2017-03-18 10:10:51,667 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-ejb/src/main/resources
+2017-03-18 10:10:51,667 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-ejb/src/test/java
+2017-03-18 10:10:51,667 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-ejb/src/test/resources
+2017-03-18 10:10:51,820 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-web/src/main/java
+2017-03-18 10:10:51,821 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-web/src/main/resources
+2017-03-18 10:10:51,821 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp-web/src/test/java
+2017-03-18 10:10:51,821 [Worker-106] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp-web/src/test/resources
+2017-03-18 10:10:52,326 [Worker-106] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for myapp-ear
+2017-03-18 10:10:52,360 [Worker-106] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for myapp-web
+2017-03-18 10:10:52,366 [Worker-106] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2017-03-18 10:10:52,855 [Worker-115] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-ear
+2017-03-18 10:10:52,855 [Worker-115] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-ear
+2017-03-18 10:10:52,857 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 10:10:52,858 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 10:10:52,859 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final is missing, no dependency information available
+2017-03-18 10:10:52,860 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final: Plugin org.wildfly.plugins:wildfly-maven-plugin:1.0.2.Final or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.wildfly.plugins:wildfly-maven-plugin:jar:1.0.2.Final has not been downloaded from it before.
+2017-03-18 10:10:52,895 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:10:53,061 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-03-18 10:10:53,072 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:10:53,072 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Test\myapp\myapp-ear\src\main\resources
+2017-03-18 10:10:53,415 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:10:53,415 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-18 10:10:53,422 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:10:53,422 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 10:10:53,672 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:10:53,672 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 10:10:53,675 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:10:53,676 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 10:10:53,676 [Worker-115] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of myapp-web
+2017-03-18 10:10:53,676 [Worker-115] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for myapp-web
+2017-03-18 10:10:53,681 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:11:15,874 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-03-18 10:11:15,903 [Worker-112] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Test\myapp
+2017-03-18 10:11:15,904 [Worker-112] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean package
+2017-03-18 10:11:39,129 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:11:39,131 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 10:11:39,131 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:11:39,131 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 10:13:43,816 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:13:43,817 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 10:13:43,819 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:13:43,819 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-18 10:15:20,860 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:15:20,860 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-03-18 10:15:20,861 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-18 10:15:20,861 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
